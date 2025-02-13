@@ -1,4 +1,6 @@
+#include <Stream.h>
 #include <SoftwareSerial.h>
+
 
 
 #define SOFT_RX 4
@@ -15,8 +17,8 @@ SoftwareSerial SoftSerial(SOFT_RX, SOFT_TX); // RX, TX
 
 void setup()
 {
-  Serial.begin(HARD_BAUD_RATE);    // hardware serial for the USB-PC
-  SoftSerial.begin(SOFT_BAUD_RATE);  // software serial Arduino to HC-06 (38400 is default)
+  Serial.begin(HARD_BAUD_RATE);      // Hardware serial port to PC
+  SoftSerial.begin(SOFT_BAUD_RATE);  // Software serial port to Bluetooth module
   Serial.println("+ + +  S E R I A L  R E P E A T E R  + + +");
 }
 

@@ -4,5 +4,5 @@
 build-*
 private
 *-full*
-fridge-controller*
+serial-repeater*
 .cache

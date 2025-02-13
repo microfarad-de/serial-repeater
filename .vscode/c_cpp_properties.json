@@ -8,9 +8,10 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/**",
-                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/**",
                 "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard/**",
-                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/**"
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"
             ],
             "macFrameworkPath": [
                 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
